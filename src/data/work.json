@@ -3,31 +3,70 @@
     "__comments": "These are some comments",
     "title": "Our Work",
     "description": "Welcome to our company website",
-    "text": "We're on a mission to make the web beautiful. Through our passion for web design & development, we're meeting our goal one client at a time.",
+    "text": "We are committed to using methods and techniques that provide the highest quality, drinkability and enjoyment of beer.",
     "work_items": [
       {
-        "name": "GOLDROSE",
-        "image": "images/goldenrose.png",
+        "name": "dz Bock",
+        "image": "images/craft-beer.png",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis eros imperdiet nibh tempor luctus. Maecenas efficitur augue nunc, ac suscipit nisl pretium in. ",
-        "completed": "Summer 2019"
+        "completed": "Summer",
+        "abv": "5.5%"
       },
       {
-        "name": "Hipster",
-        "image": "images/hipster.png",
+        "name": "Pound Foolish IPA",
+        "image": "images/craft-beer.png",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis eros imperdiet nibh tempor luctus. Maecenas efficitur augue nunc, ac suscipit nisl pretium in. ",
-        "completed": "Summer 2019"
+        "completed": "Summer",
+        "abv": "5.5%"
       },
       {
-        "name": "Hold Fast",
-        "image": "images/holdfast.png",
+        "name": "Calvert Common Honey Wheat",
+        "image": "images/craft-beer.png",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis eros imperdiet nibh tempor luctus. Maecenas efficitur augue nunc, ac suscipit nisl pretium in. ",
-        "completed": "Summer 2019"
+        "completed": "Summer",
+        "abv": "5.5%"
       },
       {
-        "name": "Freedom Travel",
-        "image": "images/freedom.png",
+        "name": "Lager",
+        "image": "images/craft-beer.png",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis eros imperdiet nibh tempor luctus. Maecenas efficitur augue nunc, ac suscipit nisl pretium in. ",
-        "completed": "Summer 2019"
+        "completed": "Summer",
+        "abv": "5.5%"
+      },
+      {
+        "name": "Black Lager",
+        "image": "images/craft-beer.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis eros imperdiet nibh tempor luctus. Maecenas efficitur augue nunc, ac suscipit nisl pretium in. ",
+        "completed": "Summer",
+        "abv": "5.5%"
+      },
+      {
+        "name": "UF Alt",
+        "image": "images/craft-beer.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis eros imperdiet nibh tempor luctus. Maecenas efficitur augue nunc, ac suscipit nisl pretium in. ",
+        "completed": "Summer",
+        "abv": "5.5%"
+      },
+      {
+        "name": "Tripel",
+        "image": "images/craft-beer.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis eros imperdiet nibh tempor luctus. Maecenas efficitur augue nunc, ac suscipit nisl pretium in. ",
+        "completed": "Summer",
+        "abv": "5.5%"
+      },
+      {
+        "name": "Lemongrass Pale Ale",
+        "image": "images/craft-beer.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis eros imperdiet nibh tempor luctus. Maecenas efficitur augue nunc, ac suscipit nisl pretium in. ",
+        "completed": "Summer",
+        "abv": "5.5%"
+      },
+      {
+        "name": "Kentucky-Style Belgian Ale",
+        "image": "images/craft-beer.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis eros imperdiet nibh tempor luctus. Maecenas efficitur augue nunc, ac suscipit nisl pretium in. ",
+        "completed": "Summer",
+        "abv": "5.5%"
       }
     ]
   }

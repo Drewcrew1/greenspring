@@ -31,6 +31,7 @@ class WorkPage extends Component {
     let i = 0
     workData.work_items.forEach(item => {
       workItems.push(
+        <div>
         <div
           key={i}
           onClick={this.openModal.bind(this, item)}
@@ -39,9 +40,12 @@ class WorkPage extends Component {
           }
           style={{
             backgroundImage: `url(${item.image})`,
-            backgroundSize: "100%",
+            backgroundSize: "cover",
+            backgroundRepeat: "no-repeat"
           }}
         ></div>
+        <p>{item.name}</p>
+        </div>
       )
       i++
     })
@@ -70,7 +74,10 @@ class WorkPage extends Component {
                 <span className="modal-title">{this.state.modal.name}</span>
                 <p className="modal-text">{this.state.modal.description}</p>
                 <p className="modal-text">
-                  Completed: {this.state.modal.completed}
+                  Season: {this.state.modal.completed}
+                </p>
+                <p className="modal-text">
+                  ABV: {this.state.modal.abv}
                 </p>
               </div>
               <div className="modal-grid-item-right">
@@ -102,6 +109,7 @@ export const query = graphql`
           description
           completed
           image
+          abv
         }
       }
     }

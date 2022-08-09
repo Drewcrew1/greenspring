@@ -5,6 +5,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  background-color: whitesmoke
 }
 .header {
   margin-top: 50px;
@@ -86,7 +87,7 @@ body {
   margin-right: 4%;
 }
 .logo {
-  height: 100px;
+  height: 200px;
   margin-bottom: -45px;
 }
 .button {
@@ -207,6 +208,19 @@ body {
 }
 .text {
   padding-left: 4%;
+  padding-right: 4%;
+  margin: auto;
+  max-width: 800px;
+  margin-top: 60px;
+  margin-bottom: 100px;
+  text-align: center;
+  font-size: calc(20px + 0.5vw);
+  color: #00000090;
+  font-weight: 300;
+}
+
+.text2 {
+  padding-left: 23%;
   padding-right: 4%;
   margin: auto;
   max-width: 800px;

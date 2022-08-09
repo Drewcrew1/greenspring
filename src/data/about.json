@@ -3,7 +3,7 @@
     "__comments": "These are some comments",
     "title": "Who We Are",
     "description": "Welcome to our company website",
-    "text": "We're on a mission to make the web beautiful. Through our passion for web design & development, we're meeting our goal one client at a time.",
+    "text": "We're on a mission to make great beer. We got started many years ago with our first beer.",
     "subtitle": "THE TEAM",
     "name_icon": "images/name.svg",
     "title_icon": "images/title.svg",
@@ -12,15 +12,15 @@
     "team_members": [
       {
         "name": "Max Mustard",
-        "title": "Backend / Marketing",
-        "email": "max@crafty.co",
+        "title": "CEO",
+        "email": "max@gbc.co",
         "twitter": "@Max_Mustard",
         "image": "images/man.svg"
       },
       {
         "name": "Joe Squishy",
-        "title": "Frontend / Design",
-        "email": "joe@crafty.co",
+        "title": "Brewer",
+        "email": "joe@gbc.co",
         "twitter": "@Joe_Squishy",
         "image": "images/man2.svg"
       }

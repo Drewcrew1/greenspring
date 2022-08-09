@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import Layout from "../components/Layout/layout"
-
+import beach from "../images/beach.jpg"
 class IndexPage extends Component {
   state = {
     smallScreen: false,
@@ -30,6 +30,7 @@ class IndexPage extends Component {
     let i = 0
     indexData.home_items.forEach(item => {
       homeItems.push(
+        <div>
         <div
           key={i}
           onClick={this.openModal.bind(this, item)}
@@ -38,16 +39,38 @@ class IndexPage extends Component {
           }
           style={{
             backgroundImage: `url(${item.image})`,
-            backgroundSize: "100%",
+            backgroundSize: "cover",
+            backgroundRepeat: "no-repeat"
           }}
         ></div>
+        <p>{item.name}</p>
+        </div>
+      )
+      i++
+    })
+    let soldAt = []
+    i = 0
+    indexData.soldAt.forEach(item => {
+      soldAt.push(
+        <a href={item.url} target="_blank">
+        <div
+          key={i}
+          // onClick={this.openModal.bind(this, item)}
+          className={
+            this.state.smallScreen ? "grid-item-small" : "home-grid-item"
+          }
+          style={{
+            backgroundImage: `url(${item.image})`,
+            backgroundSize: "100%",
+          }}
+        ></div></a>
       )
       i++
     })
     return (
       <Layout page={"home"}>
         <h1 className="title">{indexData.title}</h1>
-        <div className="home-main">
+        <div className="home-main" style={{backgroundImage: "../images/beach.jpg"}}>
           <div className="text">{indexData.text}</div>
           <div className="divider"></div>
           <h2 className="subtitle">{indexData.subtitle}</h2>
@@ -59,6 +82,17 @@ class IndexPage extends Component {
             }
           >
             {homeItems}
+          </div>
+          <div className="divider"></div>
+          <h2 className="subtitle">FIND US AT THESE SPOTS</h2>
+          <div
+            className={
+              this.state.smallScreen
+                ? "grid-container-small"
+                : "home-grid-container"
+            }
+          >
+            {soldAt}
           </div>
         </div>
         <div id="modal" className="modal" onClick={this.closeModal}>
@@ -73,7 +107,10 @@ class IndexPage extends Component {
                 <span className="modal-title">{this.state.modal.name}</span>
                 <p className="modal-text">{this.state.modal.description}</p>
                 <p className="modal-text">
-                  Completed: {this.state.modal.completed}
+                  Season: {this.state.modal.completed}
+                </p>
+                <p className="modal-text">
+                  ABV: {this.state.modal.abv}
                 </p>
               </div>
               <div className="modal-grid-item-right">
@@ -104,6 +141,13 @@ export const query = graphql`
           name
           description
           completed
+          image
+          abv
+        }
+        soldAt {
+          name
+          description
+          url
           image
         }
       }

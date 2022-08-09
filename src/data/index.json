@@ -1,28 +1,69 @@
 [
   {
     "__comments": "These are some comments",
-    "title": "Hello, We are Crafty Co.",
+    "title": "We are Greenspring Brewing Company",
     "description": "Welcome to our company website",
-    "text": "We're on a mission to make the web beautiful. Through our passion for web design & development, we're meeting our goal one client at a time.",
-    "subtitle": "OUR RECENT PROJECTS",
+    "text": "Greenspring Brewing Company is a small specialty brewery located in Calvert County, MD. We believe that beer is a perfect combination of art, science and cheer. We are committed to using methods and techniques that provide the highest quality, drinkability and enjoyment of beer.",
+    "subtitle": "OUR RECENT BREWS",
     "home_items": [
       {
-        "name": "GOLDROSE",
-        "image": "images/goldenrose.png",
+        "name": "Tired IPA",
+        "image": "images/craft-beer.png",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis eros imperdiet nibh tempor luctus. Maecenas efficitur augue nunc, ac suscipit nisl pretium in. ",
-        "completed": "Summer 2019"
+        "completed": "Summer",
+        "abv": "5.5%"
       },
       {
-        "name": "Hipster",
-        "image": "images/hipster.png",
+        "name": "Classic Pils",
+        "image": "images/craft-beer.png",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis eros imperdiet nibh tempor luctus. Maecenas efficitur augue nunc, ac suscipit nisl pretium in. ",
-        "completed": "Summer 2019"
+        "completed": "Summer",
+        "abv": "5.5%"
       },
       {
-        "name": "Freedom Travel",
-        "image": "images/freedom.png",
+        "name": "OK Pale Ale",
+        "image": "images/craft-beer.png",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis eros imperdiet nibh tempor luctus. Maecenas efficitur augue nunc, ac suscipit nisl pretium in. ",
-        "completed": "Spring 2019"
+        "completed": "Spring",
+        "abv": "5.5%"
+      }
+    ],
+    "soldAt": [
+      {
+        "name": "Nicks",
+        "image": "images/location1.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis eros imperdiet nibh tempor luctus. Maecenas efficitur augue nunc, ac suscipit nisl pretium in. ",
+        "url": "https://www.nicksofcalvert.com/"
+      },
+      {
+        "name": "Nicks",
+        "image": "images/location2.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis eros imperdiet nibh tempor luctus. Maecenas efficitur augue nunc, ac suscipit nisl pretium in. ",
+        "url": "https://www.nicksofclinton.com/"
+      },
+      {
+        "name": "DunKirk Wine and Spirits",
+        "image": "images/dunkirk_wine_and_spirits.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis eros imperdiet nibh tempor luctus. Maecenas efficitur augue nunc, ac suscipit nisl pretium in. ",
+        "url": "https://www.facebook.com/DunkirkWineandSpirits/"
+      },
+      {
+        "name": "Granville Moore",
+        "image": "images/Granville_Moore.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis eros imperdiet nibh tempor luctus. Maecenas efficitur augue nunc, ac suscipit nisl pretium in. ",
+        "url": "http://www.granvillemoores.com/"
+      },
+      {
+        "name": "Brick",
+        "image": "images/Brick.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis eros imperdiet nibh tempor luctus. Maecenas efficitur augue nunc, ac suscipit nisl pretium in. ",
+        "url": "https://brickwfb.com/"
+      },
+      {
+        "name": "Rips",
+        "image": "images/Rips.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis eros imperdiet nibh tempor luctus. Maecenas efficitur augue nunc, ac suscipit nisl pretium in. ",
+        "url": "http://www.ripscountryinn.com/"
       }
     ]
   }
