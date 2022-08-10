@@ -8,21 +8,21 @@
     "home_items": [
       {
         "name": "Tired IPA",
-        "image": "images/craft-beer.png",
+        "image": "/craft-beer.png",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis eros imperdiet nibh tempor luctus. Maecenas efficitur augue nunc, ac suscipit nisl pretium in. ",
         "completed": "Summer",
         "abv": "5.5%"
       },
       {
         "name": "Classic Pils",
-        "image": "images/craft-beer.png",
+        "image": "/craft-beer.png",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis eros imperdiet nibh tempor luctus. Maecenas efficitur augue nunc, ac suscipit nisl pretium in. ",
         "completed": "Summer",
         "abv": "5.5%"
       },
       {
         "name": "OK Pale Ale",
-        "image": "images/craft-beer.png",
+        "image": "/craft-beer.png",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis eros imperdiet nibh tempor luctus. Maecenas efficitur augue nunc, ac suscipit nisl pretium in. ",
         "completed": "Spring",
         "abv": "5.5%"
