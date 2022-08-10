@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import Layout from "../components/Layout/layout"
-
+import { graphql } from 'gatsby'
 class AboutPage extends Component {
   render() {
     let aboutData = this.props.data.allAboutJson.nodes[0]

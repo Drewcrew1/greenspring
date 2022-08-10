@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import Layout from "../components/Layout/layout"
 import beach from "../images/beach.jpg"
+import { graphql } from 'gatsby'
 class IndexPage extends Component {
   state = {
     smallScreen: false,

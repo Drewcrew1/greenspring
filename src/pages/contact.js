@@ -2,6 +2,7 @@ import React, { Component } from "react"
 import Layout from "../components/Layout/layout"
 import { serialize } from 'dom-form-serializer'
 import './Form.css'
+import { graphql } from 'gatsby'
 class ContactPage extends Component {
   static defaultProps = {
     name: 'Simple Form Ajax',

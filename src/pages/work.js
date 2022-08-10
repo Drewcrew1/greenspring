@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import Layout from "../components/Layout/layout"
-
+import { graphql } from 'gatsby'
 class WorkPage extends Component {
   state = {
     smallScreen: false,
